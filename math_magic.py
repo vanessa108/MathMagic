@@ -5,6 +5,7 @@ from PIL import Image
 def engineer(age):
     return sin(age*(pi/exp(1)*-9.81/10))
 
+st.set_page_config(page_title='Engineering Math Magic')
 def main():
     image = Image.open('./meme.png')
     st.title('Engineering Math Magic')
