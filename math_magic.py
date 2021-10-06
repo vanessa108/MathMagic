@@ -7,7 +7,7 @@ def engineer(age):
 
 st.set_page_config(page_title='Engineering Math Magic')
 def main():
-    image = Image.open('./meme.png')
+    image = Image.open('./meme2.png')
     st.title('Engineering Math Magic')
     age = st.slider('Select your age', min_value=0, max_value=100)
     magic = engineer(age)
