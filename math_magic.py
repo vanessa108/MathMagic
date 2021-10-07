@@ -1,6 +1,7 @@
 import streamlit as st
 from PIL import Image
 from math import pi, sin, exp, radians
+from PIL import Image
 
 def engineer(age, unit):
     if unit == 'Degrees':
